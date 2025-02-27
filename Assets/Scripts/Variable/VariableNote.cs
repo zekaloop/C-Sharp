@@ -1,18 +1,12 @@
 using UnityEngine;
 
-public class HelloWorldPractice : MonoBehaviour
+public class VariableNote : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Debug.Log("Hello Unity\n123456789");
+        int number;
+        number = 256;
+        Debug.Log(number);
     }
-
-    
 }
-/*
- [output]
- 
- 
- */
-

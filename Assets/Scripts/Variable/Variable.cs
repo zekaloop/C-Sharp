@@ -1,18 +1,16 @@
 using UnityEngine;
 
-public class HelloWorldPractice : MonoBehaviour
+public class Variable : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Debug.Log("Hello Unity\n123456789");
+        
     }
 
-    
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
 }
-/*
- [output]
- 
- 
- */
-

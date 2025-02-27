@@ -1,18 +1,15 @@
 using UnityEngine;
 
-public class HelloWorldPractice : MonoBehaviour
+
+
+public class EmptyStatement : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Debug.Log("Hello Unity\n123456789");
+        ;
+        ;
+        ;
     }
 
-    
 }
-/*
- [output]
- 
- 
- */
-

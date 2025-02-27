@@ -1,18 +1,11 @@
 using UnityEngine;
 
-public class HelloWorldPractice : MonoBehaviour
+public class VariableDemo : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Debug.Log("Hello Unity\n123456789");
+        int num = 7; //변수 선언과 동시에 값 대입 (초기화)
+        Debug.Log(num);
     }
-
-    
 }
-/*
- [output]
- 
- 
- */
-
