@@ -11,7 +11,7 @@ public class VariablePractice : MonoBehaviour
         second = 20;
         third = 30;
 
-        Debug.Log(first+","+ second + "," + third);
+        Debug.Log(first + "," + second + "," + third);
         
     }
 }
