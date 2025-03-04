@@ -1,13 +1,13 @@
 using UnityEngine;
 
-public class StringPractice : MonoBehaviour
+//정수형 변수의 값을 1 증가
+public class IncrementNumber : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        string name = "홀수";
-        int num = 3;
-
-        Debug.Log($"{num}은(는) {name}입니다");
+        int num = 10;
+        num = num + 1; 
+        Debug.Log(num);
     }
 }

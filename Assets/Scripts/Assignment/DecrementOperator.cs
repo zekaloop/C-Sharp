@@ -1,13 +1,13 @@
 using UnityEngine;
 
-public class StringPractice : MonoBehaviour
+public class DecrementOperator : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        string name = "홀수";
-        int num = 3;
+        int num = -100;
 
-        Debug.Log($"{num}은(는) {name}입니다");
+        --num;
+        Debug.Log(num);
     }
 }
