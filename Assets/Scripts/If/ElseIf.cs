@@ -1,29 +1,33 @@
 using UnityEngine;
 
-public class IfElsePractice : MonoBehaviour
+public class ElseIf : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        int score = 85;
-        string medal = "";
+        int score = 90;
+        char grade = 'A';
 
         if (score >= 90)
         {
-            medal = "금메달";
+            grade = 'A';
         }
         else if (score >= 80)
         {
-            medal = "은메달";
+            grade = 'B';
         }
         else if (score >= 70)
         {
-            medal = "동메달";
+            grade = 'C';
+        }
+        else if (score >= 60)
+        {
+            grade = 'D';
         }
         else
         {
-            medal = "노메달";
+            grade = 'F';
         }
-        Debug.Log($"{medal}을 수상하셨습니다");
+        Debug.Log(grade);
     }
 }
